@@ -17,6 +17,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
+
+
 const allowedOrigins = (process.env.CORS_ORIGIN || "")
   .split(",")
   .map((origin) => origin.trim())
@@ -26,6 +28,9 @@ const corsOptions = {
   origin: allowedOrigins,
   credentials: true,
 };
+
+console.log("NODE_ENV:", process.env.NODE_ENV);
+console.log("CORS_ORIGIN:", process.env.CORS_ORIGIN);
 
 app.use(cors(corsOptions));
 
