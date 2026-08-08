@@ -1,4 +1,6 @@
 # 🚀 Job Hunt – MERN Stack Job Portal
+<img width="1896" height="911" alt="image" src="https://github.com/user-attachments/assets/28320725-24a0-470a-bde6-e0293614f261" />
+
 
 A modern full-stack job portal built with the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**. The platform enables job seekers to discover opportunities, apply for jobs, and manage their profiles, while recruiters can create companies, publish job openings, and review applications.
 
